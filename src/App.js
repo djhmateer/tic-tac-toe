@@ -33,9 +33,9 @@ export default function Board() {
   const winner = calculateWinner(squares);
   let status;
   if (winner) {
-    status = 'The Winner: ' + winner;
+    status = 'The2 Winner: ' + winner;
   } else {
-    status = 'The Next player: ' + (xIsNext ? 'X' : 'O');
+    status = 'The2 Next player: ' + (xIsNext ? 'X' : 'O');
   }
 
   return (
